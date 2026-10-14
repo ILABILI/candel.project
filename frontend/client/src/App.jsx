@@ -3,6 +3,9 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Products from "./components/products";
 import Footer from "./components/Footer";
+import Contact from "./pages/Contact";
+import About from "./pages/About";
+import Shop from "./pages/Shop";
 
 
 function Home() {
@@ -12,23 +15,23 @@ function Home() {
       <Hero />
       <Products />
       <Footer />
+      <Contact />
+      <About />
+      <Shop />
 
       
     </div>
   );
 }
 
-function Shop() {
-  return <div>Shop</div>;
-}
 
-function About() {
-  return <div>About</div>;
-}
 
-function Contact() {
-  return <div>Contact</div>;
-}
+
+
+
+
+
+
 
 function Cart() {
   return <div>Cart</div>;
